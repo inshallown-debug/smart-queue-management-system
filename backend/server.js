@@ -41,6 +41,7 @@ app.use((err, req, res, next) => {
   console.error(err);
   res.status(500).json({ message: 'Something went wrong on the server.' });
 });
+console.log('DEBUG - CLIENT_URL is:', process.env.CLIENT_URL);
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
