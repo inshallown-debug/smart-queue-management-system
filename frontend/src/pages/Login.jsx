@@ -58,9 +58,7 @@ export default function Login() {
         <p className="muted" style={{ marginTop: 18, fontSize: '0.88rem' }}>
           New here? <Link to="/register">Create an account</Link>
         </p>
-        <p className="muted" style={{ marginTop: 8, fontSize: '0.8rem' }}>
-          Admin demo login: admin@smartqueue.com / Admin@123 (after running <code>npm run seed</code>)
-        </p>
+        
       </div>
     </div>
   );
